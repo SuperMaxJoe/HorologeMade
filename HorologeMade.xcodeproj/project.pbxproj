@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F64120611C28FEF600C4A667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F64120601C28FEF600C4A667 /* main.m */; };
+		F64120641C28FEF600C4A667 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F64120631C28FEF600C4A667 /* AppDelegate.m */; };
+		F64120671C28FEF600C4A667 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F64120661C28FEF600C4A667 /* ViewController.m */; };
+		F641206A1C28FEF600C4A667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64120681C28FEF600C4A667 /* Main.storyboard */; };
+		F641206C1C28FEF600C4A667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F641206B1C28FEF600C4A667 /* Assets.xcassets */; };
+		F641206F1C28FEF600C4A667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F641206D1C28FEF600C4A667 /* LaunchScreen.storyboard */; };
+		F641207A1C28FEF600C4A667 /* HorologeMadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64120791C28FEF600C4A667 /* HorologeMadeTests.m */; };
+		F64120851C28FEF600C4A667 /* HorologeMadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F64120841C28FEF600C4A667 /* HorologeMadeUITests.m */; };
+		F6A55F1F1C44A665004FB387 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A55F1E1C44A665004FB387 /* CoreGraphics.framework */; };
+		F6A55F221C44CEAE004FB387 /* drawview.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A55F211C44CEAE004FB387 /* drawview.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F64120761C28FEF600C4A667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64120541C28FEF600C4A667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F641205B1C28FEF600C4A667;
+			remoteInfo = HorologeMade;
+		};
+		F64120811C28FEF600C4A667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F64120541C28FEF600C4A667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F641205B1C28FEF600C4A667;
+			remoteInfo = HorologeMade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F641205C1C28FEF600C4A667 /* HorologeMade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorologeMade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64120601C28FEF600C4A667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F64120621C28FEF600C4A667 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F64120631C28FEF600C4A667 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F64120651C28FEF600C4A667 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F64120661C28FEF600C4A667 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F64120691C28FEF600C4A667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F641206B1C28FEF600C4A667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F641206E1C28FEF600C4A667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F64120701C28FEF600C4A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64120751C28FEF600C4A667 /* HorologeMadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorologeMadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64120791C28FEF600C4A667 /* HorologeMadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorologeMadeTests.m; sourceTree = "<group>"; };
+		F641207B1C28FEF600C4A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64120801C28FEF600C4A667 /* HorologeMadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorologeMadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64120841C28FEF600C4A667 /* HorologeMadeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorologeMadeUITests.m; sourceTree = "<group>"; };
+		F64120861C28FEF600C4A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A55F1E1C44A665004FB387 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6A55F201C44CEAE004FB387 /* drawview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = drawview.h; sourceTree = "<group>"; };
+		F6A55F211C44CEAE004FB387 /* drawview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = drawview.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F64120591C28FEF600C4A667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A55F1F1C44A665004FB387 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64120721C28FEF600C4A667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641207D1C28FEF600C4A667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F64120531C28FEF600C4A667 = {
+			isa = PBXGroup;
+			children = (
+				F641205E1C28FEF600C4A667 /* HorologeMade */,
+				F64120781C28FEF600C4A667 /* HorologeMadeTests */,
+				F64120831C28FEF600C4A667 /* HorologeMadeUITests */,
+				F641205D1C28FEF600C4A667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F641205D1C28FEF600C4A667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F641205C1C28FEF600C4A667 /* HorologeMade.app */,
+				F64120751C28FEF600C4A667 /* HorologeMadeTests.xctest */,
+				F64120801C28FEF600C4A667 /* HorologeMadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F641205E1C28FEF600C4A667 /* HorologeMade */ = {
+			isa = PBXGroup;
+			children = (
+				F64120621C28FEF600C4A667 /* AppDelegate.h */,
+				F64120631C28FEF600C4A667 /* AppDelegate.m */,
+				F64120651C28FEF600C4A667 /* ViewController.h */,
+				F64120661C28FEF600C4A667 /* ViewController.m */,
+				F6A55F201C44CEAE004FB387 /* drawview.h */,
+				F6A55F211C44CEAE004FB387 /* drawview.m */,
+				F64120681C28FEF600C4A667 /* Main.storyboard */,
+				F641206B1C28FEF600C4A667 /* Assets.xcassets */,
+				F641206D1C28FEF600C4A667 /* LaunchScreen.storyboard */,
+				F64120701C28FEF600C4A667 /* Info.plist */,
+				F641205F1C28FEF600C4A667 /* Supporting Files */,
+			);
+			path = HorologeMade;
+			sourceTree = "<group>";
+		};
+		F641205F1C28FEF600C4A667 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F64120601C28FEF600C4A667 /* main.m */,
+				F6A55F1E1C44A665004FB387 /* CoreGraphics.framework */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F64120781C28FEF600C4A667 /* HorologeMadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F64120791C28FEF600C4A667 /* HorologeMadeTests.m */,
+				F641207B1C28FEF600C4A667 /* Info.plist */,
+			);
+			path = HorologeMadeTests;
+			sourceTree = "<group>";
+		};
+		F64120831C28FEF600C4A667 /* HorologeMadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F64120841C28FEF600C4A667 /* HorologeMadeUITests.m */,
+				F64120861C28FEF600C4A667 /* Info.plist */,
+			);
+			path = HorologeMadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F641205B1C28FEF600C4A667 /* HorologeMade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F64120891C28FEF600C4A667 /* Build configuration list for PBXNativeTarget "HorologeMade" */;
+			buildPhases = (
+				F64120581C28FEF600C4A667 /* Sources */,
+				F64120591C28FEF600C4A667 /* Frameworks */,
+				F641205A1C28FEF600C4A667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorologeMade;
+			productName = HorologeMade;
+			productReference = F641205C1C28FEF600C4A667 /* HorologeMade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F64120741C28FEF600C4A667 /* HorologeMadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F641208C1C28FEF600C4A667 /* Build configuration list for PBXNativeTarget "HorologeMadeTests" */;
+			buildPhases = (
+				F64120711C28FEF600C4A667 /* Sources */,
+				F64120721C28FEF600C4A667 /* Frameworks */,
+				F64120731C28FEF600C4A667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64120771C28FEF600C4A667 /* PBXTargetDependency */,
+			);
+			name = HorologeMadeTests;
+			productName = HorologeMadeTests;
+			productReference = F64120751C28FEF600C4A667 /* HorologeMadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F641207F1C28FEF600C4A667 /* HorologeMadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F641208F1C28FEF600C4A667 /* Build configuration list for PBXNativeTarget "HorologeMadeUITests" */;
+			buildPhases = (
+				F641207C1C28FEF600C4A667 /* Sources */,
+				F641207D1C28FEF600C4A667 /* Frameworks */,
+				F641207E1C28FEF600C4A667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F64120821C28FEF600C4A667 /* PBXTargetDependency */,
+			);
+			name = HorologeMadeUITests;
+			productName = HorologeMadeUITests;
+			productReference = F64120801C28FEF600C4A667 /* HorologeMadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F64120541C28FEF600C4A667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "赵百川";
+				TargetAttributes = {
+					F641205B1C28FEF600C4A667 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F64120741C28FEF600C4A667 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F641205B1C28FEF600C4A667;
+					};
+					F641207F1C28FEF600C4A667 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F641205B1C28FEF600C4A667;
+					};
+				};
+			};
+			buildConfigurationList = F64120571C28FEF600C4A667 /* Build configuration list for PBXProject "HorologeMade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F64120531C28FEF600C4A667;
+			productRefGroup = F641205D1C28FEF600C4A667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F641205B1C28FEF600C4A667 /* HorologeMade */,
+				F64120741C28FEF600C4A667 /* HorologeMadeTests */,
+				F641207F1C28FEF600C4A667 /* HorologeMadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F641205A1C28FEF600C4A667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F641206F1C28FEF600C4A667 /* LaunchScreen.storyboard in Resources */,
+				F641206C1C28FEF600C4A667 /* Assets.xcassets in Resources */,
+				F641206A1C28FEF600C4A667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64120731C28FEF600C4A667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641207E1C28FEF600C4A667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F64120581C28FEF600C4A667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64120671C28FEF600C4A667 /* ViewController.m in Sources */,
+				F64120641C28FEF600C4A667 /* AppDelegate.m in Sources */,
+				F6A55F221C44CEAE004FB387 /* drawview.m in Sources */,
+				F64120611C28FEF600C4A667 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64120711C28FEF600C4A667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F641207A1C28FEF600C4A667 /* HorologeMadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641207C1C28FEF600C4A667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64120851C28FEF600C4A667 /* HorologeMadeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F64120771C28FEF600C4A667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F641205B1C28FEF600C4A667 /* HorologeMade */;
+			targetProxy = F64120761C28FEF600C4A667 /* PBXContainerItemProxy */;
+		};
+		F64120821C28FEF600C4A667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F641205B1C28FEF600C4A667 /* HorologeMade */;
+			targetProxy = F64120811C28FEF600C4A667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F64120681C28FEF600C4A667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F64120691C28FEF600C4A667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F641206D1C28FEF600C4A667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F641206E1C28FEF600C4A667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F64120871C28FEF600C4A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F64120881C28FEF600C4A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F641208A1C28FEF600C4A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorologeMade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = licai.zhanheng.HorologeMade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F641208B1C28FEF600C4A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HorologeMade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = licai.zhanheng.HorologeMade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F641208D1C28FEF600C4A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorologeMadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = licai.zhanheng.HorologeMadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorologeMade.app/HorologeMade";
+			};
+			name = Debug;
+		};
+		F641208E1C28FEF600C4A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HorologeMadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = licai.zhanheng.HorologeMadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HorologeMade.app/HorologeMade";
+			};
+			name = Release;
+		};
+		F64120901C28FEF600C4A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HorologeMadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = licai.zhanheng.HorologeMadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HorologeMade;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F64120911C28FEF600C4A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HorologeMadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = licai.zhanheng.HorologeMadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HorologeMade;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F64120571C28FEF600C4A667 /* Build configuration list for PBXProject "HorologeMade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64120871C28FEF600C4A667 /* Debug */,
+				F64120881C28FEF600C4A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F64120891C28FEF600C4A667 /* Build configuration list for PBXNativeTarget "HorologeMade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F641208A1C28FEF600C4A667 /* Debug */,
+				F641208B1C28FEF600C4A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F641208C1C28FEF600C4A667 /* Build configuration list for PBXNativeTarget "HorologeMadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F641208D1C28FEF600C4A667 /* Debug */,
+				F641208E1C28FEF600C4A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F641208F1C28FEF600C4A667 /* Build configuration list for PBXNativeTarget "HorologeMadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F64120901C28FEF600C4A667 /* Debug */,
+				F64120911C28FEF600C4A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F64120541C28FEF600C4A667 /* Project object */;
+}
